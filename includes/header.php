@@ -17,16 +17,44 @@
     <section class="header">
         <div class="top_header">
             <div class="cust_container">
-<div class="social_icon">
-    <a href='#'><i class="fa-brands fa-twitter"></i></a>
-    <a href='#'><i class="fa-brands fa-facebook-f"></i>></a>
-    <a href='#'><i class="fa-brands fa-instagram"></i></a>
-    <a href='#'><i class="fa-brands fa-twitter"></i></a>
-    <a href='#'><i class="fa-brands fa-twitter"></i></a>
-</div>
+                <div class="wrap">
+                    <div class="social_icon">
+                        <a href='#'><i class="fa-brands fa-twitter"></i></a>
+                        <a href='#'><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href='#'><i class="fa-brands fa-instagram"></i></a>
+                        <a href='#'><i class="fa-brands fa-twitter"></i></a>
+                        <a href='#'><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+
+                    <div class="right">
+                        <ul>
+                            <li><a href='#'>Privacy Policy</a></li>
+                            <li class="line"></li>
+                            <li><a href='#'>Disclaimer</a></li>
+                            <li class="line"></li>
+                            <li><a href='#'>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cust_container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div>
+                        <img src='../assets/images/logo.png' alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-12">
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-</body>
-
-</html>
