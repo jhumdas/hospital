@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+html.body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.top_header{
+    background: #237d9e;
+    height: 32px;
+}
