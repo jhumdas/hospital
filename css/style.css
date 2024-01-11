@@ -1,66 +1,41 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 16px;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+    box-sizing: border-box;
 }
+
 html.body {
-  max-width: 100%;
-  overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
 }
-h1,h2,h3,h4,h5,h6,p,ul{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
+
 /***header***/
-
-.top_header {
-  background: #237d9e;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.marqHead {
+    background-color: #ff4931;
+    padding: 7px 0;
 }
-.cust_container {
-  padding: 0 50px;
-  width: 100%;
 
-}
-.social_icon a{
+.marqHdPara {
+    font-size: 18px;
     color: #fff;
-    margin-right: 10px;
-}
-.top_header .wrap{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.top_header .wrap .line{
-    height: 20px;
-    width: 1px;
-    background-color: #fff;
-}
-.top_header .right ul{
-    display: flex;
-    margin-bottom: 0;
-}
-.top_header .right ul li{
-margin-right: 10px;
-
-}
-.top_header .right ul li a{
-    color: #fff;
-    font-size: 10px;
-}
-.top_header .right ul li a:hover{
-    text-decoration: none;
-    color: #000;
-}
-.header{
-    background-color: #fff;
+    font-weight: 600;
+    margin: 0;
 }
