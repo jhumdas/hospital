@@ -27,6 +27,12 @@ ul li {
     list-style: none;
 }
 
+.custContainer {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
 /***header***/
 .marqHead {
     background-color: #ff4931;
@@ -38,4 +44,321 @@ ul li {
     color: #fff;
     font-weight: 600;
     margin: 0;
+}
+
+.midInnerHeadDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hospiLogoFig {
+    width: 175px;
+    height: auto;
+    margin: 0;
+}
+
+.hospiLogoFig img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainMidMenusUl {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.mainMidMenusLi {
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+.mainMidMenusLi:last-child {
+    margin-right: 0;
+}
+
+.mainMidMenusLiAn {
+    display: inline-block;
+    font-size: 18px;
+    color: #7f7f7f;
+    padding: 5px 8px;
+    border-radius: 3px;
+    margin: 0;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.mainMidMenusLi:first-child .mainMidMenusLiAn {
+    background-color: #58b9a2;
+    color: #fff;
+}
+
+.mainMidMenusLiAn:hover {
+    background-color: #ff4931;
+    color: #fff;
+    text-decoration: none;
+}
+
+.midHeadDiv {
+    margin: 10px 0;
+}
+
+.srchInpDiv {
+    max-width: 230px;
+    width: 100%;
+    position: relative;
+}
+
+.srchInpDiv input {
+    width: 100%;
+    padding: 10px 30px 10px 15px;
+    border-radius: 7px;
+    outline: none;
+    border: 0;
+    box-shadow: 0 0 5px 0 #535353d5;
+    font-size: 15px;
+}
+
+.srchInpDiv i {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 10px;
+    font-size: 15px;
+}
+
+.btmHeadDiv {
+    background-color: #58b9a2;
+    padding: 15px 0;
+}
+
+.btmLeftMenuUl {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.btmLeftMenuLi {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.btmLeftMenuLi:last-child {
+    margin-right: 0;
+}
+
+.btmLeftMenuLiAn {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px 8px 12px;
+    border-radius: 8px;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.btmLeftMenuLiAn:hover {
+    color: #58b9a2;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.lwrBtmInnerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.lwrInnerRhtUl {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.lwrInnerRhtLi {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.lwrInnerRhtLi:last-child {
+    margin-right: 0;
+}
+
+.lwrInrPara {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.lwrRhtIconDiv {
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -3px -3px 5px 0px rgb(255 255 255 / 50%), 3px 3px 5px 0px rgb(0 0 0 / 20%);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.lwrRhtIconDiv i {
+    font-size: 16px;
+    color: #ff4931;
+}
+
+/* footer part */
+.footerSection {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: #58b9a2;
+    margin-top: 10px;
+}
+
+.footerPrtSmallDivs {
+    width: 24%;
+}
+
+.footerMainInnerDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogoFig {
+    width: 175px;
+    height: auto;
+    margin: 0 0 25px 0;
+}
+
+.footerLogoFig img {
+    width: 100%;
+    height: 100%;
+}
+
+.footerAdrsPara {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+
+.ftrLeftInnerUl {
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.ftrLeftInnerLi {
+    margin-bottom: 18px;
+    list-style-type: none;
+}
+
+.ftrLeftInnerLi:last-child {
+    margin-bottom: 0;
+}
+
+.ftrLeftInnerLiAn {
+    color: #ffffffbd;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.ftrLeftInnerLiAnInDiv i {
+    font-size: 16px;
+}
+
+.ftrLeftInnerLiAnInDiv span {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.ftrLeftInnerLiAn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ftrLeftIconUl {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.ftrLeftIconLi {
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+.ftrLeftIconLi:last-child {
+    margin-right: 0;
+}
+
+.ftrLeftIconLiAn {
+    color: #ffffffc4;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.ftrLeftIconLiAn i {
+    font-size: 25px;
+}
+
+.ftrLeftIconLiAn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ftrInnerDivsHead {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+
+.ftrInnerMidUl {
+    padding: 0;
+    margin: 0;
+}
+
+.ftrInnerMidLi {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.ftrInnerMidLi:last-child {
+    margin-bottom: 0;
+}
+
+.ftrInnerMidLiAn {
+    color: #ffffffd5;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.ftrInnerMidLiAn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ftrInnerMidLiAnInDiv i {
+    font-size: 17px;
+}
+
+.ftrInnerMidLiAnInDiv span {
+    margin-left: 7px;
+    font-size: 18px;
+    font-weight: 500;
 }
