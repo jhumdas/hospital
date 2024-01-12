@@ -3,7 +3,7 @@
 <!-- banner part -->
 
 <section class="banner">
-    <div class="container">
+    <div class="custContainer">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
