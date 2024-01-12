@@ -242,5 +242,5 @@
 
     });
 </script>
-
+<?php include 'specialist.php' ?><?php include 'patientspeaks.php' ?>
 <?php include 'includes/footer.php' ?>
