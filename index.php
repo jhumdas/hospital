@@ -58,21 +58,11 @@
     </div>
 </section>
 
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
 
-    });
-</script>
 
 <?php include 'homeabout.php' ?>
 <?php include 'excellence.php' ?>
+<?php include 'service.php' ?>
 <?php include 'specialist.php' ?>
 <?php include 'patientspeaks.php' ?>
 <?php include 'includes/footer.php' ?>

@@ -1,3 +1,5 @@
+
+/***specialist***/
 var swiper = new Swiper(".myFastSwiper", {
     slidesPerView: 1,
     spaceBetween: 10,
@@ -31,7 +33,17 @@ var swiper = new Swiper(".myFastSwiper", {
   });
 
 
+/****banner*****/
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+  },
 
+});
 
   /****patient****/
     var swiper = new Swiper(".mySwiperPatient", {

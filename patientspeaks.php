@@ -1,6 +1,6 @@
 <section class="patient_speaks">
     <div class="container">
-        <div class="top">
+    <div class="sec_top">
             <h6>TESTIMONIALS</h6>
             <h5>Our Patients Speak</h5>
         </div>
