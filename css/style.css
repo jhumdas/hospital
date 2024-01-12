@@ -436,8 +436,9 @@ a:hover{
     padding: 20px 0;
     margin-bottom: 30px;
     color: #224855;
-    font-size: 26px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Times New Roman, serif;
 }
 /* 
 .specialistCareSection {
