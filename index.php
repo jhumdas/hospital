@@ -67,5 +67,5 @@
     
     });
 </script>
-
+<?php include 'patientspeaks.php' ?>
 <?php include 'includes/footer.php' ?>
