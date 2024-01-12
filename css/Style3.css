@@ -1,4 +1,55 @@
-/* Hospital about start */
+/* Home about start */
+
+.homeabt {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+}
+
+.homeAbtInn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeabtDet {
+    width: 60%;
+    height: 350px;
+    position: relative;
+    border: 1px solid #f04d37;
+    padding: 40px 30px 40px 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 0;
+}
+
+.homeabtHead {
+    font-weight: 600;
+    font-size: 30px;
+    color: #1c577f;
+    margin-bottom: 15px;
+}
+
+.homeabtPara{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.homeabtImg{
+    width: 40%;
+    height: 420px;
+}
+
+.homeabtImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Home about end */
+
+/* excellence section start */
 
 .HospitalAbt {
     width: 100%;
@@ -62,13 +113,12 @@
 
 .tabBan {
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 
 .tabBan img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .tabContentHead {
@@ -118,7 +168,7 @@
 }
 
 .tabContentBtnDiv {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .tabContentBtn {
@@ -141,14 +191,39 @@
     border: none;
 }
 
+.tabBigHead {
+    color: #224855;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
 
-/* Hospital about end */
+.highlightList ul li {
+    color: #262626;
+    font-size: 13px;
+    line-height: 26px;
+    position: relative;
+    padding: 10px 0px;
+    border-bottom: 1px solid #F7F5F5;
+}
+
+.highlightList ul li::before {
+    content: '\f14a';
+    font-family: fontawesome;
+    color: #224855;
+    font-size: 13px;
+    margin-right: 8px;
+}
+
+
+/* excellence section end */
 
 /* Responsive */
 
 @media (max-width: 1199px) {
 
-    /* Hospital about start */
+    /* excellence section start */
 
     .tabBtnLink {
         padding: 12px 10px !important;
@@ -158,29 +233,33 @@
         margin-right: 5px;
     }
 
-    /* Hospital about end */
+    /* excellence section end */
 }
 
 @media (max-width: 991px) {
 
-    /* Hospital about start */
+    /* excellence section start */
 
     .tabContentBtn {
         padding: 7px 12px;
     }
 
-    /* Hospital about end */
+    .tabBigHead {
+        font-size: 18px;
+    }
+
+    /* excellence section end */
 }
 
 @media (max-width: 767px) {
 
-    /* Hospital about start */
+    /* excellence section start */
 
     .HospitalAbtTop h5 {
         font-size: 20px;
     }
 
-    .HospitalAbtTop p{
+    .HospitalAbtTop p {
         font-size: 13px;
     }
 
@@ -188,11 +267,11 @@
         padding-top: 20px;
     }
 
-    .HeartList ul li{
+    .HeartList ul li {
         width: 47%;
     }
 
-    .HeartList ul{
+    .HeartList ul {
         column-gap: 8px;
         row-gap: 20px;
     }
@@ -201,15 +280,19 @@
         font-size: 12px;
     }
 
-    /* Hospital about end */
+    /* excellence section end */
 }
 
-@media (max-width: 420px){
-    
-    /* Hospital about start */
+@media (max-width: 575px) {
 
+    /* excellence section start */
 
+    .tabBigHead {
+        font-size: 15px;
+        line-height: 25px;
+    }
 
-
-    /* Hospital about end */
+    /* excellence section end */
 }
+
+@media (max-width: 420px) {}
