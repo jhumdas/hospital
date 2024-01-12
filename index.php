@@ -71,6 +71,7 @@
     });
 </script>
 
+<?php include 'whychooseus.php' ?>
 <?php include 'homeabout.php' ?>
 <?php include 'excellence.php' ?>
 <?php include 'specialist.php' ?>
