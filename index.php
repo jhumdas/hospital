@@ -67,5 +67,5 @@
     
     });
 </script>
-
+<?php include 'specialist.php' ?>
 <?php include 'includes/footer.php' ?>
