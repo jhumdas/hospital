@@ -29,3 +29,16 @@ var swiper = new Swiper(".myFastSwiper", {
       },
     },
   });
+
+
+
+
+  /****patient****/
+    var swiper = new Swiper(".mySwiperPatient", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+ 
