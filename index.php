@@ -68,7 +68,7 @@
         </div>
         <div class="HospitalAbtBtm">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
                     <!-- Tabs nav -->
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <button class="nav-link tabBtnLink active show" id="v-pills-Heart-tab" data-toggle="pill" href="#v-pills-Heart" role="tab" aria-controls="v-pills-Heart" aria-selected="true"><img src="./assets/images/heart.png" alt="heart">
@@ -108,15 +108,46 @@
                 </div>
 
 
-                <div class="col-md-9">
+                <div class="col-lg-9 col-md-8 col-sm-12">
                     <!-- Tabs content -->
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane active show" id="v-pills-Heart" role="tabpanel" aria-labelledby="v-pills-Heart-tab">
-                            <h4 class="font-italic mb-4">Heart</h4>
+                            <figure class="tabBan">
+                                <img src="./assets/images/Heart Banner.jpg" alt="img">
+                            </figure>
+
+                            <h3 class="tabContentHead">Lorem Ipsum Heart Institute Expertise</h3>
+                            <p class="tabContentPara">The Apollo Heart Institutes are regarded as one of the best heart hospitals in India, performing a multitude of treatments and procedures in cardiology and cardiothoracic surgery. The scorecard shows an unmatched record of over 1,96,684 cardiac and cardiothoracic surgeries.</p>
+
+                            <div class="HeartList">
+                                <h3 class="tabContentHead">Explore Our Heart Institute Features</h3>
+                                <ul>
+                                    <li><a href="#">Milestones</a></li>
+                                    <li><a href="#">Treatments</a></li>
+                                    <li><a href="#">Facilities</a></li>
+                                    <li><a href="#">Diagnostic Services</a></li>
+                                    <li><a href="#">Clinical Team</a></li>
+                                    <li><a href="#">Tracking Outcomes</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Clinicial Articles</a></li>
+                                    <li><a href="#">Saving A Child's Heart</a></li>
+                                    <li><a href="#">Post a Query</a></li>
+                                    <li><a href="#">Case Studies</a></li>
+                                </ul>
+                                <div class="tabContentBtnDiv">
+                                    <a href="#" class="tabContentBtn">READ MORE</a>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="tab-pane fade" id="v-pills-Spine" role="tabpanel" aria-labelledby="v-pills-Spine-tab">
-                            <h4 class="font-italic mb-4">Spine</h4>
+                            <h5>Lorem Ipsum Institutions For Spine Surgery In India</h5>
+                            <p class="tabContentPara">The Apollo department of Spine is regarded as one of the top & best hospitals for spine surgery in India with a legacy of innovation and excellence.</p>
+                            <p class="tabContentPara">The spine surgeons perform major and complex spine surgery. Apollo Hospitals is indeed a pioneer and one of the foremost institutions for spine surgery. The spine surgery units at the various Apollo Hospitals locations are a conglomeration of spine specialists in the treatment of spinal disorders, cancers, deformities as well as specialists in the areas of pain management and physiotherapy. Some of the latest techniques including minimally invasive and robotic surgeries have been done at the various hospitals of the group. The complete range of management options for treating back pain and spinal disorders are available. Our Spine doctors will check for list of common spine diseases and conditions of the patient and provide treatment based on the observation.</p>
+
+                            <div class="highlightList">
+                                
+                            </div>
                         </div>
 
                         <div class="tab-pane fade" id="v-pills-Orthopedics" role="tabpanel" aria-labelledby="v-pills-Orthopedics-tab">
