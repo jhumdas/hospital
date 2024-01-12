@@ -141,6 +141,31 @@
     border: none;
 }
 
+.tabBigHead {
+    color: #224855;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.highlightList ul li {
+    color: #262626;
+    font-size: 13px;
+    line-height: 26px;
+    position: relative;
+    padding: 10px 0px;
+    border-bottom: 1px solid #F7F5F5;
+}
+
+.highlightList ul li::before{
+    content: '\f14a';
+    font-family: fontawesome;
+    color: #224855;
+    font-size: 13px;
+    margin-right: 8px;
+}
+
 
 /* Hospital about end */
 
@@ -169,6 +194,10 @@
         padding: 7px 12px;
     }
 
+    .tabBigHead{
+        font-size: 18px;
+    }
+
     /* Hospital about end */
 }
 
@@ -180,7 +209,7 @@
         font-size: 20px;
     }
 
-    .HospitalAbtTop p{
+    .HospitalAbtTop p {
         font-size: 13px;
     }
 
@@ -188,11 +217,11 @@
         padding-top: 20px;
     }
 
-    .HeartList ul li{
+    .HeartList ul li {
         width: 47%;
     }
 
-    .HeartList ul{
+    .HeartList ul {
         column-gap: 8px;
         row-gap: 20px;
     }
@@ -204,8 +233,20 @@
     /* Hospital about end */
 }
 
-@media (max-width: 420px){
-    
+@media (max-width: 575px){
+
+    /* Hospital about start */
+
+    .tabBigHead {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /* Hospital about end */
+}
+
+@media (max-width: 420px) {
+
     /* Hospital about start */
 
 

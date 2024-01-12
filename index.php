@@ -141,21 +141,58 @@
                         </div>
 
                         <div class="tab-pane fade" id="v-pills-Spine" role="tabpanel" aria-labelledby="v-pills-Spine-tab">
-                            <h5>Lorem Ipsum Institutions For Spine Surgery In India</h5>
+                            <h5 class="tabBigHead">Lorem Ipsum Institutions For Spine Surgery In India</h5>
                             <p class="tabContentPara">The Apollo department of Spine is regarded as one of the top & best hospitals for spine surgery in India with a legacy of innovation and excellence.</p>
                             <p class="tabContentPara">The spine surgeons perform major and complex spine surgery. Apollo Hospitals is indeed a pioneer and one of the foremost institutions for spine surgery. The spine surgery units at the various Apollo Hospitals locations are a conglomeration of spine specialists in the treatment of spinal disorders, cancers, deformities as well as specialists in the areas of pain management and physiotherapy. Some of the latest techniques including minimally invasive and robotic surgeries have been done at the various hospitals of the group. The complete range of management options for treating back pain and spinal disorders are available. Our Spine doctors will check for list of common spine diseases and conditions of the patient and provide treatment based on the observation.</p>
 
                             <div class="highlightList">
-                                
+                                <h5 class="tabContentHead">Highlights</h5>
+                                <ul>
+                                    <li>The Spine Surgery Centers of Apollo Hospitals have many medical milestones to their credit – the first lumbar disc replacement in the country was performed at Apollo Hospitals, and several cervical spine surgeries and lumbar disc replacements have also been performed.</li>
+                                    <li>We have best spine surgical team & specialists in India with vast background of dealing with complex spinal procedures.</li>
+                                    <li>The Centers perform the full range of spinal procedures from Minimally Invasive Spine Surgery (MISS), to major spine surgery procedures like complex spinal reconstructions.</li>
+                                    <li>The units are also well known internationally for complex deformity surgeries as well as revision spine surgery. The centres perform the maximum number of spinal deformity corrections in the private health care segment in India.</li>
+                                    <li>The Group was the first to introduce 3rd generation spinal implants in India. The Spine surgeons of Apollo Hospitals also designed an anterior stabilization spinal implant which was approved by FDA and is being used now throughout the world.</li>
+                                </ul>
+                                <div class="tabContentBtnDiv">
+                                    <a href="#" class="tabContentBtn">READ MORE</a>
+                                </div>
                             </div>
                         </div>
 
                         <div class="tab-pane fade" id="v-pills-Orthopedics" role="tabpanel" aria-labelledby="v-pills-Orthopedics-tab">
-                            <h4 class="font-italic mb-4">Orthopedics</h4>
+                            <h5 class="tabBigHead">Lorem Ipsum Institutions For Orthopedics Expertise</h5>
+                            <p class="tabContentPara">The Apollo department of Spine is regarded as one of the top & best hospitals for spine surgery in India with a legacy of innovation and excellence.</p>
+                            <p class="tabContentPara">The spine surgeons perform major and complex spine surgery. Apollo Hospitals is indeed a pioneer and one of the foremost institutions for spine surgery. The spine surgery units at the various Apollo Hospitals locations are a conglomeration of spine specialists in the treatment of spinal disorders, cancers, deformities as well as specialists in the areas of pain management and physiotherapy. Some of the latest techniques including minimally invasive and robotic surgeries have been done at the various hospitals of the group. The complete range of management options for treating back pain and spinal disorders are available. Our Spine doctors will check for list of common spine diseases and conditions of the patient and provide treatment based on the observation.</p>
+
+                            <div class="highlightList">
+                                <h5 class="tabContentHead">Highlights</h5>
+                                <ul>
+                                    <li>The Spine Surgery Centers of Apollo Hospitals have many medical milestones to their credit – the first lumbar disc replacement in the country was performed at Apollo Hospitals, and several cervical spine surgeries and lumbar disc replacements have also been performed.</li>
+                                    <li>We have best spine surgical team & specialists in India with vast background of dealing with complex spinal procedures.</li>
+                                    <li>The Centers perform the full range of spinal procedures from Minimally Invasive Spine Surgery (MISS), to major spine surgery procedures like complex spinal reconstructions.</li>
+                                    <li>The units are also well known internationally for complex deformity surgeries as well as revision spine surgery. The centres perform the maximum number of spinal deformity corrections in the private health care segment in India.</li>
+                                    <li>The Group was the first to introduce 3rd generation spinal implants in India. The Spine surgeons of Apollo Hospitals also designed an anterior stabilization spinal implant which was approved by FDA and is being used now throughout the world.</li>
+                                </ul>
+                                <div class="tabContentBtnDiv">
+                                    <a href="#" class="tabContentBtn">READ MORE</a>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="tab-pane fade" id="v-pills-CancerCare" role="tabpanel" aria-labelledby="v-pills-CancerCare-tab">
-                            <h4 class="font-italic mb-4">Cancer Care</h4>
+                            <h5 class="tabBigHead">Lorem Ipsum Cancer Centre</h5>
+                            <p class="tabContentPara">Apollo Hospitals is one of the best cancer hospitals in India with 10 dedicated hospitals across Hyderabad, Chennai, Bengaluru, Madurai, Kolkata, Delhi, Ahmedabad, Bhubaneswar & Bilaspur.</p>
+                            <p class="tabContentPara">To the thousands of patients who visit for cancer treatment in India, the Apollo Hospitals Cancer Centre symbolizes hope that Cancer is Conquerable. The Cancer care system at Apollo Hospitals involves over 125 surgical and radiation Oncology specialists as well as diagnostic consultants that offer comprehensive Cancer Care. The mission is to take the fight against cancer to the next frontier, and redefine clinical benchmarks and outcomes.</p>
+
+                            <h5 class="tabContentHead">Cancer Treatment in India:</h5>
+                            <p class="tabContentPara">Apollo Hospitals provides comprehensive cancer care with best treatment facilities in India. Our expert team of oncologists examines every case jointly and decides on the best line of cancer treatment for the patient. Specially trained medical counsellors, speech therapists, dieticians and other professionals, appropriate to each individual case, provide support to the team of cancer specialists.</p>
+
+                            <h5 class="tabContentHead">Cancer Screening Programmes in India:</h5>
+                            <p class="tabContentPara">The measurable success that the hospitals have achieved in Cancer Care attracts thousands of national and international patients each year who come from over 120 countries.</p>
+                            <div class="tabContentBtnDiv">
+                                <a href="#" class="tabContentBtn">READ MORE</a>
+                            </div>
                         </div>
 
                         <div class="tab-pane fade" id="v-pills-Neurosciences" role="tabpanel" aria-labelledby="v-pills-Neurosciences-tab">
