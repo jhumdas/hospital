@@ -6,6 +6,15 @@
     padding: 30px 0px;
 }
 
+.homeBigHead{
+    font-size: 30px;
+    font-weight: 700;
+    color: #224855;
+    font-family: Times New Roman, serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .homeAbtInn {
     display: flex;
     justify-content: space-between;
@@ -24,10 +33,11 @@
 }
 
 .homeabtHead {
-    font-weight: 600;
-    font-size: 30px;
-    color: #1c577f;
+    font-weight: 700;
+    font-size: 24px;
+    color: #224855;
     margin-bottom: 15px;
+    font-family: Times New Roman, serif;
 }
 
 .homeabtPara{
@@ -84,6 +94,7 @@
 .whyusSecInn{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
 }
 
@@ -117,10 +128,11 @@
 }
 
 .whyusHead{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
     color: #224855;
-    margin-top: 15px;
+    margin: 15px 0px;
+    font-family: Times New Roman, serif;
 }
 
 .whyusPara{
@@ -176,9 +188,10 @@
 }
 
 .HospitalAbtTop h5 {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
     color: #224855;
+    font-family: Times New Roman, serif;
 }
 
 .HospitalAbtTop p {
@@ -349,6 +362,14 @@
 
     /* home about end */
 
+    /* why choose us section start */
+
+    .whyusDet{
+        width: 60%;
+    }
+
+    /* why choose us section end */
+
     /* excellence section start */
 
     .tabBtnLink {
@@ -389,6 +410,26 @@
     }
 
     /* home about end */
+
+    /* why choose us section start */
+
+    .whyusSecInn{
+        flex-direction: column;
+    }
+
+    .whyusDet {
+        width: 100%;
+    }
+
+    .whyusimg{
+        width: 100%;
+    }
+
+    .whyusimgFig {
+        height: 400px;
+    }
+
+    /* why choose us section end */
 
     /* excellence section start */
 
@@ -444,6 +485,19 @@
     }
 
     /* home about end */
+
+    /* why choose us section start */
+
+    .whyusimgFig {
+        height: auto;
+    }
+
+    .whychoosePoint {
+        width: 100%;
+        padding: 5px 0px;
+    }
+
+    /* why choose us section end */
 
     /* excellence section start */
 

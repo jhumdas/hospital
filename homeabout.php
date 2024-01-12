@@ -1,5 +1,6 @@
 <section class="homeabt">
     <div class="custContainer">
+        <h5 class="homeBigHead">About Us</h5>
         <div class="homeAbtInn">
             <div class="homeabtDet">
                 <h5 class="homeabtHead">About Hospital</h5>
